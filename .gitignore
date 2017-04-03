@@ -2,7 +2,8 @@
 #    folder   #
 ###############
 node_modules
-
+.vscode
+*.log.*
 
 ###############
 #  fixed file #

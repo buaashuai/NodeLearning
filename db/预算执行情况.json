@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "msg": "消息",
+  "code": "400",
+  "data": {
+    "total": 3,
+    "rows": [
+      {
+        "budgetName": "预算1",
+        "result": "12224",
+        "execute": "22"
+      },
+      {
+        "budgetName": "预算2",
+        "result": "22",
+        "execute": "33"
+      },
+      {
+        "budgetName": "预算3",
+        "result": "33",
+        "execute": "33"
+      }
+    ]
+  }
+}

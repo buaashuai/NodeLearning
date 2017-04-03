@@ -12,6 +12,15 @@ app.use(cookieParser());
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 var upload = multer({dest: './tmp'});
 
+//设置跨域访问  
+app.all('*', function(req, res, next) {  
+    res.header("Access-Control-Allow-Origin", "*");  
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");  
+    res.header("Access-Control-Allow-Methods","PUT,POST,GET,DELETE,OPTIONS");  
+    res.header("X-Powered-By",' 3.2.1')  
+    res.header("Content-Type", "application/json;charset=utf-8");  
+    next();  
+});  
 
 app.get('/index.html', function (req, res) {
    res.sendFile( __dirname + "/" + "index.html" );
@@ -84,12 +93,19 @@ app.post('/del_user', function (req, res) {
 });
 app.get('/list_user', function (req, res) {
    console.log("Got a GET request for /list_user");
-   var obj = {
+   var obj = [{
     id: 1,
-    name: '汪帅',
-    gender: '男',
-    school: 'BUAA'
-   };
+    name: '小马',
+    school: 'AA'
+   },
+   {id: 2,
+    name: '小明',
+    school: 'BB'
+   },
+   {id: 3,
+    name: '小李',
+    school: 'CC'
+   }];
    res.send(obj);
    // Parse the request containing file name
    var pathname = url.parse(req.url).pathname;
@@ -128,7 +144,7 @@ app.post('/file_upload', upload.single('myImage'), function (req, res, next) {
    res.send(JSON.stringify(response));
 });
 
-var server = app.listen(8080, function () {
+var server = app.listen(8088, function () {
 
   var host = server.address().address;
   var port = server.address().port;

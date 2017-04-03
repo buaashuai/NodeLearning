@@ -1,0 +1,137 @@
+{
+  "success": true,
+  "msg": "消息",
+  "code": "400",
+  "data": {
+    "billId": "1111",
+    "billType": "12224",
+    "billTypeName": "张老板",
+    "billDate": "1491099505198",
+    "year": "2017",
+    "departId": "22222",
+    "departName": "软件开发",
+    "operatorId": "12",
+    "operatorName": "张三",
+    "reason": "注说明/事",
+    "moneySum": "88",
+    "apprStamp": "1491099805198",
+    "isAudit": "1",
+    "code": "10001",
+    "reimType": "1",
+    "reimTypeName": "说明",
+    "reimName": "吃饭",
+    "busiType": "0",
+    "budgetId": "99",
+    "budgetName": "预算名",
+    "attachList": [
+      {
+        "name": "文档1",
+        "url": "11111111111",
+        "extend": "doc"
+      },
+      {
+        "name": "文档2",
+        "url": "11111111111",
+        "extend": "ppt"
+      },
+      {
+        "name": "文档6",
+        "url": "11111111111",
+        "extend": "ppt"
+      },
+      {
+        "name": "文档3",
+        "url": "11111111111",
+        "extend": "ppt"
+      },
+      {
+        "name": "文档4",
+        "url": "11111111111",
+        "extend": "ppt"
+      },
+      {
+        "name": "文档5",
+        "url": "11111111111",
+        "extend": "ppt"
+      }
+    ],
+    "auditList": [
+      {
+        "auditDatetime": "1491099805198",
+        "departName": "部门1",
+        "operatorName": "张三1"
+      },
+      {
+        "auditDatetime": "1491099805198",
+        "departName": "部门2",
+        "operatorName": "张三2"
+      },
+      {
+        "auditDatetime": "1491099805198",
+        "departName": "部门3",
+        "operatorName": "张三3"
+      },
+      {
+        "auditDatetime": "1491099805198",
+        "departName": "部门4",
+        "operatorName": "张三4"
+      }
+    ],
+    "detailList": [
+      {
+        "departName": "部门1",
+        "travelName": "张三1",
+        "beginDate": "1491099805198",
+        "endDate": "1491099805198",
+        "days": "5",
+        "beginPlace": "北京",
+        "endPlace": "云南",
+        "beginVehicle": "高铁",
+        "endVehicle": "民航",
+        "isAccd": "1",
+        "moneyTraffic": "12323",
+        "moneyCertificate": "1111",
+        "moneyAccd": "2323",
+        "moneyOther": "22",
+        "memo": "备注2",
+        "money": "66"
+      },
+      {
+        "departName": "部门2",
+        "travelName": "张三2",
+        "beginDate": "1491099805198",
+        "endDate": "1491099805198",
+        "days": "5",
+        "beginPlace": "北京2",
+        "endPlace": "云南2",
+        "beginVehicle": "高铁2",
+        "endVehicle": "民航2",
+        "isAccd": "1",
+        "moneyTraffic": "12323",
+        "moneyCertificate": "1111",
+        "moneyAccd": "2323",
+        "moneyOther": "22",
+        "memo": "备注2",
+        "money": "66"
+      },
+      {
+        "departName": "部门3",
+        "travelName": "张三3",
+        "beginDate": "1491099805198",
+        "endDate": "1491099805198",
+        "days": "5",
+        "beginPlace": "北京3",
+        "endPlace": "云南3",
+        "beginVehicle": "高铁3",
+        "endVehicle": "民航3",
+        "isAccd": "1",
+        "moneyTraffic": "23",
+        "moneyCertificate": "1111",
+        "moneyAccd": "2323",
+        "moneyOther": "22",
+        "memo": "备注3",
+        "money": "77"
+      }
+    ]
+  }
+}
