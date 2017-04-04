@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "msg": "消息",
+  "code": "400",
+  "data": {
+    "total": 23,
+    "rows": [
+      {
+        "billId": "1111",
+        "billType": "1",
+        "billTypeName": "张老板1",
+        "departId": "22222",
+        "departName": "软件开发",
+        "operatorId": "12",
+        "operatorName": "张三",
+        "billDate": "1491099505198",
+        "reason": "注说明/事",
+        "moneySum": "88",
+        "auditStamp": "1491099805198",
+        "isAudit": "0",
+        "code": "10001"
+      },
+	  {
+        "billId": "444",
+        "billType": "2",
+        "billTypeName": "张老板2",
+        "departId": "22222",
+        "departName": "软件开发",
+        "operatorId": "12",
+        "operatorName": "张三",
+        "billDate": "1491099505198",
+        "reason": "注说明/事",
+        "moneySum": "88",
+        "auditStamp": "1491099805198",
+        "isAudit": "0",
+        "code": "10001"
+      },
+      {
+        "billId": "222222",
+        "billType": "3",
+        "billTypeName": "张老板3",
+        "departId": "22222",
+        "departName": "软件开发2",
+        "operatorId": "12",
+        "operatorName": "张三2",
+        "billDate": "1491099505198",
+        "reason": "注说明/事",
+        "moneySum": "88",
+        "auditStamp": "1491099805198",
+        "isAudit": "0",
+        "code": "10001"
+      },
+      {
+        "billId": "333333",
+        "billType": "4",
+        "billTypeName": "张老板4",
+        "departId": "22222",
+        "departName": "软件开发3",
+        "operatorId": "12",
+        "operatorName": "张三3",
+        "billDate": "1491099505198",
+        "reason": "注说明/事3",
+        "moneySum": "88",
+        "auditStamp": "1491099805198",
+        "isAudit": "0",
+        "code": "10001"
+      }
+    ]
+  }
+}

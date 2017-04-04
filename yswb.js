@@ -44,6 +44,40 @@ app.get('/api/base.do_getUrl', function (req, res) {
    // Print the name of the file for which request is made.
    console.log("Request for " + pathname + " received.");
 });
+app.get('/api/audit.do_doAudit', function (req, res) {
+   console.log("Got a GET request for /audit.do_doAudit");
+   var obj = {
+    success: true,
+    msg: '成功',
+    code: '400',
+	data: {
+		state: '成功'
+	}
+   };
+   res.send(obj);
+   // Parse the request containing file name
+   var pathname = url.parse(req.url).pathname;
+   
+   // Print the name of the file for which request is made.
+   console.log("Request for " + pathname + " received.");
+});
+app.get('/api/audit.do_doRegret', function (req, res) {
+   console.log("Got a GET request for /audit.do_doAudit");
+   var obj = {
+    success: true,
+    msg: '成功',
+    code: '400',
+	data: {
+		state: '撤销成功'
+	}
+   };
+   res.send(obj);
+   // Parse the request containing file name
+   var pathname = url.parse(req.url).pathname;
+   
+   // Print the name of the file for which request is made.
+   console.log("Request for " + pathname + " received.");
+});
 app.get('/api/user.do_doLogin', function (req, res) {
    console.log("Got a GET request for /list_user");
    var obj = {
@@ -94,7 +128,14 @@ app.get('/api/user.do_getUserinfo', function (req, res) {
 });
 app.get('/api/audit.do_getAuditList', function (req, res) {
    console.log("Got a GET request for /api/audit.do?getAuditList");
-   var obj = JSON.parse(fs.readFileSync('./db/审批列表.json'));
+   var obj = {};
+	var type = req.query.isAudit;
+	if(type === '1'){
+	   obj = JSON.parse(fs.readFileSync('./db/已审批列表.json'));
+   }else if(type === '0'){
+	   obj = JSON.parse(fs.readFileSync('./db/待审批列表.json'));
+   }
+   
    res.send(obj);
    // Parse the request containing file name
    var pathname = url.parse(req.url).pathname;
