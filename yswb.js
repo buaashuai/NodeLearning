@@ -34,7 +34,7 @@ app.get('/api/base.do_getUrl', function (req, res) {
     msg: '消息',
     code: '400',
 	data: {
-		url: 'http://192.168.1.105:8088'
+		url: 'http://192.168.2.237:8088'
 	}
    };
    res.send(obj);

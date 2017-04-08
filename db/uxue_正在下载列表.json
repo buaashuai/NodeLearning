@@ -1,0 +1,315 @@
+{
+  "error_no": 0,
+  "data": {
+    "list": [
+      {
+        "lessonInfo": {
+          "chapter_title": "四级长效班第一周课程",
+          "valid_end_tm": "1497715199",
+          "id": "686",
+          "live_room_id": "FckSxYxbot",
+          "teacher": [
+            {
+              "id": "13",
+              "name": "余浩"
+            },
+			{
+              "id": "13",
+              "name": "余浩2"
+            },
+			{
+              "id": "13",
+              "name": "余浩3"
+            }
+          ],
+          "time": "2016-12-26 17:10 - 18:10",
+          "title": "四级阅读1",
+          "videos": [
+            {
+              "courseware_id": "WtlX0frA42",
+              "room_domain": "lijingjy.gensee.com",
+              "room_join_pwd": "2b3a66768e7b7e0",
+              "room_key": "1000000033WtlX0frA4214914065302e996a0bc84583b9c09a24978f3a2d45",
+              "room_no": "60845689",
+              "room_user_id": "1000000033",
+              "room_user_nickname": "机灵小可",
+              "subject": "8916-686:四级阅读1"
+            }
+          ]
+        },
+        "state": "WAITING",
+        "position": 20
+      },
+      {
+        "lessonInfo": {
+          "chapter_title": "四级长效班第一周课程",
+          "valid_end_tm": "1497715199",
+          "id": "692",
+          "live_room_id": "u2DDkJHyUO",
+          "teacher": [
+            {
+              "id": "13",
+              "name": "余浩"
+            }
+          ],
+          "time": "2016-12-27 19:00 - 20:00",
+          "title": "四级阅读2",
+          "videos": [
+            {
+              "courseware_id": "C3BiNsX1nK",
+              "room_domain": "lijingjy.gensee.com",
+              "room_join_pwd": "59877656264746b",
+              "room_key": "1000000033C3BiNsX1nK14914065303c222b04705e0e019405773a14097441",
+              "room_no": "30446199",
+              "room_user_id": "1000000033",
+              "room_user_nickname": "机灵小可",
+              "subject": "8916-692:四级阅读2"
+            }
+          ]
+        },
+        "state": "WAITING",
+        "position": 45
+      },
+      {
+        "lessonInfo": {
+          "chapter_title": "四级长效班第一周课程",
+          "valid_end_tm": "1497715199",
+          "id": "682",
+          "live_room_id": "a0r0cujmLR",
+          "teacher": [
+            {
+              "id": "6",
+              "name": "吴飘沐"
+            }
+          ],
+          "time": "2016-12-27 16:00 - 17:00",
+          "title": "四级听力2",
+          "videos": [
+            {
+              "courseware_id": "uagwvyWPwy",
+              "room_domain": "lijingjy.gensee.com",
+              "room_join_pwd": "3eded6ea71f950f",
+              "room_key": "1000000033uagwvyWPwy149147329532400ccaed9194ae4014c07c05abdf55",
+              "room_no": "88126685",
+              "room_user_id": "1000000033",
+              "room_user_nickname": "机灵小可",
+              "subject": "8916-682:四级听力2"
+            }
+          ]
+        },
+        "state": "WAITING",
+        "position": 80
+      },
+      {
+        "lessonInfo": {
+          "chapter_title": "四级长效班第一周课程",
+          "valid_end_tm": "1497715199",
+          "id": "692",
+          "live_room_id": "u2DDkJHyUO",
+          "teacher": [
+            {
+              "id": "13",
+              "name": "余浩"
+            }
+          ],
+          "time": "2016-12-27 19:00 - 20:00",
+          "title": "四级阅读2",
+          "videos": [
+            {
+              "courseware_id": "C3BiNsX1nK",
+              "room_domain": "lijingjy.gensee.com",
+              "room_join_pwd": "59877656264746b",
+              "room_key": "1000000033C3BiNsX1nK14914065303c222b04705e0e019405773a14097441",
+              "room_no": "30446199",
+              "room_user_id": "1000000033",
+              "room_user_nickname": "机灵小可",
+              "subject": "8916-692:四级阅读2"
+            }
+          ]
+        },
+        "state": "WAITING",
+        "position": 45
+      },
+      {
+        "lessonInfo": {
+          "chapter_title": "四级长效班第一周课程",
+          "valid_end_tm": "1497715199",
+          "id": "692",
+          "live_room_id": "u2DDkJHyUO",
+          "teacher": [
+            {
+              "id": "13",
+              "name": "余浩"
+            }
+          ],
+          "time": "2016-12-27 19:00 - 20:00",
+          "title": "四级阅读2",
+          "videos": [
+            {
+              "courseware_id": "C3BiNsX1nK",
+              "room_domain": "lijingjy.gensee.com",
+              "room_join_pwd": "59877656264746b",
+              "room_key": "1000000033C3BiNsX1nK14914065303c222b04705e0e019405773a14097441",
+              "room_no": "30446199",
+              "room_user_id": "1000000033",
+              "room_user_nickname": "机灵小可",
+              "subject": "8916-692:四级阅读2"
+            }
+          ]
+        },
+        "state": "WAITING",
+        "position": 45
+      },
+      {
+        "lessonInfo": {
+          "chapter_title": "四级长效班第一周课程",
+          "valid_end_tm": "1497715199",
+          "id": "692",
+          "live_room_id": "u2DDkJHyUO",
+          "teacher": [
+            {
+              "id": "13",
+              "name": "余浩"
+            }
+          ],
+          "time": "2016-12-27 19:00 - 20:00",
+          "title": "四级阅读2",
+          "videos": [
+            {
+              "courseware_id": "C3BiNsX1nK",
+              "room_domain": "lijingjy.gensee.com",
+              "room_join_pwd": "59877656264746b",
+              "room_key": "1000000033C3BiNsX1nK14914065303c222b04705e0e019405773a14097441",
+              "room_no": "30446199",
+              "room_user_id": "1000000033",
+              "room_user_nickname": "机灵小可",
+              "subject": "8916-692:四级阅读2"
+            }
+          ]
+        },
+        "state": "WAITING",
+        "position": 45
+      },
+      {
+        "lessonInfo": {
+          "chapter_title": "四级长效班第一周课程",
+          "valid_end_tm": "1497715199",
+          "id": "692",
+          "live_room_id": "u2DDkJHyUO",
+          "teacher": [
+            {
+              "id": "13",
+              "name": "余浩"
+            }
+          ],
+          "time": "2016-12-27 19:00 - 20:00",
+          "title": "四级阅读2",
+          "videos": [
+            {
+              "courseware_id": "C3BiNsX1nK",
+              "room_domain": "lijingjy.gensee.com",
+              "room_join_pwd": "59877656264746b",
+              "room_key": "1000000033C3BiNsX1nK14914065303c222b04705e0e019405773a14097441",
+              "room_no": "30446199",
+              "room_user_id": "1000000033",
+              "room_user_nickname": "机灵小可",
+              "subject": "8916-692:四级阅读2"
+            }
+          ]
+        },
+        "state": "WAITING",
+        "position": 45
+      },
+      {
+        "lessonInfo": {
+          "chapter_title": "四级长效班第一周课程",
+          "valid_end_tm": "1497715199",
+          "id": "692",
+          "live_room_id": "u2DDkJHyUO",
+          "teacher": [
+            {
+              "id": "13",
+              "name": "余浩"
+            }
+          ],
+          "time": "2016-12-27 19:00 - 20:00",
+          "title": "四级阅读2",
+          "videos": [
+            {
+              "courseware_id": "C3BiNsX1nK",
+              "room_domain": "lijingjy.gensee.com",
+              "room_join_pwd": "59877656264746b",
+              "room_key": "1000000033C3BiNsX1nK14914065303c222b04705e0e019405773a14097441",
+              "room_no": "30446199",
+              "room_user_id": "1000000033",
+              "room_user_nickname": "机灵小可",
+              "subject": "8916-692:四级阅读2"
+            }
+          ]
+        },
+        "state": "WAITING",
+        "position": 45
+      },
+      {
+        "lessonInfo": {
+          "chapter_title": "四级长效班第一周课程",
+          "valid_end_tm": "1497715199",
+          "id": "682",
+          "live_room_id": "a0r0cujmLR",
+          "teacher": [
+            {
+              "id": "6",
+              "name": "吴飘沐"
+            }
+          ],
+          "time": "2016-12-27 16:00 - 17:00",
+          "title": "四级听力2",
+          "videos": [
+            {
+              "courseware_id": "uagwvyWPwy",
+              "room_domain": "lijingjy.gensee.com",
+              "room_join_pwd": "3eded6ea71f950f",
+              "room_key": "1000000033uagwvyWPwy149147329532400ccaed9194ae4014c07c05abdf55",
+              "room_no": "88126685",
+              "room_user_id": "1000000033",
+              "room_user_nickname": "机灵小可",
+              "subject": "8916-682:四级听力2"
+            }
+          ]
+        },
+        "state": "WAITING",
+        "position": 80
+      },
+      {
+        "lessonInfo": {
+          "chapter_title": "四级长效班第一周课程",
+          "valid_end_tm": "1497715199",
+          "id": "687",
+          "live_room_id": "C0yL6Eqbry",
+          "teacher": [
+            {
+              "id": "15",
+              "name": "罗蓓"
+            }
+          ],
+          "time": "2016-12-27 17:10 - 18:10",
+          "title": "四级翻译1",
+          "videos": [
+            {
+              "courseware_id": "15wzCUTh1Q",
+              "room_domain": "lijingjy.gensee.com",
+              "room_join_pwd": "18298892995457a",
+              "room_key": "100000003315wzCUTh1Q14914732957a3ee9fdb2d17ef772a3a5e18f055c08",
+              "room_no": "07750018",
+              "room_user_id": "1000000033",
+              "room_user_nickname": "机灵小可",
+              "subject": "8916-687:四级翻译1"
+            }
+          ]
+        },
+        "state": "WAITING",
+        "position": 100
+      }
+    ]
+  }
+}

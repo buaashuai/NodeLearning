@@ -6,7 +6,7 @@
     "billId": "1111",
     "billType": "12224",
     "billTypeName": "张老板",
-    "billDate": "1491099505198",
+    "billDate": "2017-12-24",
     "year": "2017",
     "departId": "22222",
     "departName": "软件开发",
@@ -14,8 +14,8 @@
     "operatorName": "张三",
     "reason": "注说明/事",
     "moneySum": "88",
-    "apprStamp": "1491099805198",
-    "isAudit": "1",
+    "apprStamp": "2017-12-24",
+    "auditorState": "1",
     "code": "10001",
     "reimType": "1",
     "reimTypeName": "说明",
@@ -56,23 +56,27 @@
     ],
     "auditList": [
       {
-        "auditDatetime": "1491099805198",
+        "auditDatetime": "2017-12-24——2017-12-19",
         "departName": "部门1",
+        "isAudit": "0",
         "operatorName": "张三1"
       },
       {
-        "auditDatetime": "1491099805198",
+        "auditDatetime": "2017-12-24——2017-12-19",
         "departName": "部门2",
+		"isAudit": "1",
         "operatorName": "张三2"
       },
       {
-        "auditDatetime": "1491099805198",
+        "auditDatetime": "2017-12-24——2017-12-19",
         "departName": "部门3",
+		"isAudit": "0",
         "operatorName": "张三3"
       },
       {
-        "auditDatetime": "1491099805198",
+        "auditDatetime": "2017-12-24——2017-12-19",
         "departName": "部门4",
+		"isAudit": "1",
         "operatorName": "张三4"
       }
     ],

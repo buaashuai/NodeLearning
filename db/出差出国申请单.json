@@ -6,16 +6,16 @@
     "billId": "1111",
     "billType": "12224",
     "billTypeName": "张老板",
-    "billDate": "1491099505198",
-    "year": "2017",
+    "billDate": "2017-12-24",
+    "year": "2017-4-21",
     "departId": "22222",
     "departName": "软件开发",
     "operatorId": "12",
     "operatorName": "张三",
     "reason": "注说明/事",
     "moneySum": "88",
-    "apprStamp": "1491099805198",
-    "isAudit": "1",
+    "apprStamp": "2017-4-21",
+    "auditorState": "0",
     "code": "10001",
     "reimType": "1",
     "reimTypeName": "说明",
@@ -47,33 +47,62 @@
       {
         "name": "文档4",
         "url": "11111111111",
-        "extend": "ppt"
+        "extend": "jpg"
       },
       {
         "name": "文档5",
         "url": "11111111111",
+        "extend": "?"
+      },
+	  {
+        "name": "文档1",
+        "url": "11111111111",
+        "extend": "doc"
+      },
+      {
+        "name": "文档2",
+        "url": "11111111111",
         "extend": "ppt"
+      },
+      {
+        "name": "文档6",
+        "url": "11111111111",
+        "extend": "ppt"
+      },
+      {
+        "name": "文档3",
+        "url": "11111111111",
+        "extend": "ppt"
+      },
+      {
+        "name": "文档4",
+        "url": "11111111111",
+        "extend": "jpg"
       }
     ],
     "auditList": [
       {
-        "auditDatetime": "1491099805198",
+        "auditDatetime": "2017-12-24——2017-12-19",
         "departName": "部门1",
+        "isAudit": "0",
         "operatorName": "张三1"
       },
       {
-        "auditDatetime": "1491099805198",
+        "auditDatetime": "2017-12-24——2017-12-19",
         "departName": "部门2",
+		"isAudit": "1",
         "operatorName": "张三2"
       },
       {
-        "auditDatetime": "1491099805198",
+        "auditDatetime": "2017-12-24——2017-12-19",
         "departName": "部门3",
+		"isAudit": "0",
         "operatorName": "张三3"
       },
       {
-        "auditDatetime": "1491099805198",
+        "auditDatetime": "2017-12-24——2017-12-19",
         "departName": "部门4",
+		"isAudit": "1",
         "operatorName": "张三4"
       }
     ],
@@ -81,8 +110,8 @@
       {
         "departName": "部门1",
         "travelName": "张三1",
-        "beginDate": "1491099805198",
-        "endDate": "1491099805198",
+        "beginDate": "2017-12-24",
+        "endDate": "2017-12-19",
         "days": "5",
         "beginPlace": "北京",
         "endPlace": "云南",
@@ -99,8 +128,8 @@
       {
         "departName": "部门2",
         "travelName": "张三2",
-        "beginDate": "1491099805198",
-        "endDate": "1491099805198",
+        "beginDate": "2017-12-24",
+        "endDate": "2017-12-24",
         "days": "5",
         "beginPlace": "北京2",
         "endPlace": "云南2",
@@ -117,8 +146,8 @@
       {
         "departName": "部门3",
         "travelName": "张三3",
-        "beginDate": "1491099805198",
-        "endDate": "1491099805198",
+        "beginDate": "2017-12-24",
+        "endDate": "2017-12-19",
         "days": "5",
         "beginPlace": "北京3",
         "endPlace": "云南3",
