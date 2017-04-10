@@ -24,33 +24,28 @@
     "attachList": [
       {
         "name": "文档1",
-        "url": "11111111111",
-        "extend": "doc"
+        "url": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
+        "extend": "png"
       },
       {
         "name": "文档2",
-        "url": "11111111111",
-        "extend": "ppt"
+        "url": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1428066388,1479179434&fm=80&w=179&h=119&img.JPEG",
+        "extend": "JPEG"
       },
       {
         "name": "文档6",
-        "url": "11111111111",
-        "extend": "ppt"
+        "url": "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2840615516,3949476717&fm=80&w=179&h=119&img.JPEG",
+        "extend": "JPEG"
       },
       {
         "name": "文档3",
-        "url": "11111111111",
-        "extend": "ppt"
+        "url": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1916799691,3145707946&fm=80&w=179&h=119&img.JPEG",
+        "extend": "JPEG"
       },
       {
         "name": "文档4",
-        "url": "11111111111",
-        "extend": "ppt"
-      },
-      {
-        "name": "文档5",
-        "url": "11111111111",
-        "extend": "ppt"
+        "url": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=4132476511,482829442&fm=80&w=179&h=119&img.JPEG",
+        "extend": "JPEG"
       }
     ],
     "auditList": [
