@@ -34,7 +34,7 @@ app.get('/api/base.do_getUrl', function (req, res) {
     msg: '消息',
     code: '400',
 	data: {
-		url: 'http://192.168.2.237:8088'
+		url: 'http://192.243.113.113:8088'
 	}
    };
    res.send(obj);
@@ -88,7 +88,7 @@ app.get('/api/user.do_doLogin', function (req, res) {
 		userName: '张三',
 		userId: '12224',
 		realName: '张老板',
-		departName: '软件开发',
+		departName: '软件开发2',
 		departId: '12',
 		rankName: '工程师',
 		rankId: '22',
@@ -131,9 +131,9 @@ app.get('/api/audit.do_getAuditList', function (req, res) {
    var obj = {};
 	var type = req.query.isAudit;
 	if(type === '1'){
-	   obj = JSON.parse(fs.readFileSync('./db/已审批列表.json'));
+	   obj = JSON.parse(fs.readFileSync('./db/yswb_audited.json'));
    }else if(type === '0'){
-	   obj = JSON.parse(fs.readFileSync('./db/待审批列表.json'));
+	   obj = JSON.parse(fs.readFileSync('./db/yswb_auditing.json'));
    }
    
    res.send(obj);
@@ -147,15 +147,15 @@ app.get('/api/audit.do_getAuditList', function (req, res) {
 app.get('/api/bill.do_getBill', function (req, res) {
    console.log("Got a GET request for api/bill.do?getBill");
    // 费用报销
-   var obj = JSON.parse(fs.readFileSync('./db/费用报销.json'));
+   var obj = JSON.parse(fs.readFileSync('./db/yswb_fee.json'));
    // 出差/出国申请单
-   var obj2 = JSON.parse(fs.readFileSync('./db/出差出国申请单.json'));
+   var obj2 = JSON.parse(fs.readFileSync('./db/yswb_abroad.json'));
    // 请款单
-   var obj3 = JSON.parse(fs.readFileSync('./db/请款单.json'));
+   var obj3 = JSON.parse(fs.readFileSync('./db/yswb_qingkuan.json'));
    // 公务接待报销单
-   var obj4 = JSON.parse(fs.readFileSync('./db/公务接待报销单.json'));
+   var obj4 = JSON.parse(fs.readFileSync('./db/yswb_official.json'));
    // 劳资费单
-   var obj5=JSON.parse(fs.readFileSync('./db/劳资费单.json'));
+   var obj5=JSON.parse(fs.readFileSync('./db/yswb_labour.json'));
    var type = req.query.type;
    console.log(type);
    if(type === '1'){
@@ -181,7 +181,7 @@ app.get('/api/bill.do_getBill', function (req, res) {
 
 app.get('/api/budget.do_getResultList', function (req, res) {
    console.log("Got a GET request for /api/budget.do?getResultList");
-   var obj = JSON.parse(fs.readFileSync('./db/预算执行情况.json'));
+   var obj = JSON.parse(fs.readFileSync('./db/yswb_budget.json'));
    res.send(obj);
    // Parse the request containing file name
    var pathname = url.parse(req.url).pathname;
@@ -191,7 +191,7 @@ app.get('/api/budget.do_getResultList', function (req, res) {
 });
 app.get('/api/budget.do_getDepartList', function (req, res) {
    console.log("Got a GET request for /api/budget.do?getDepartList");
-   var obj = JSON.parse(fs.readFileSync('./db/部门列表.json'));
+   var obj = JSON.parse(fs.readFileSync('./db/yswb_departs.json'));
    res.send(obj);
    // Parse the request containing file name
    var pathname = url.parse(req.url).pathname;

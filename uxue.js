@@ -42,6 +42,20 @@ app.get('/getCourseDownloadingList', function (req, res) {
    console.log("Request for " + pathname + " received.");
 });
 
+app.get('/getRecordPeriod', function (req, res) {
+   console.log("Got a GET request for GetRecordPeriod");
+   var obj = {};
+	var type = req.query.isAudit;
+	obj = JSON.parse(fs.readFileSync('./db/uxue_可下载录播列表.json'));
+   
+   res.send(obj);
+   // Parse the request containing file name
+   var pathname = url.parse(req.url).pathname;
+   
+   // Print the name of the file for which request is made.
+   console.log("Request for " + pathname + " received.");
+});
+
 app.get('/process_get', function (req, res) {
 
    // Prepare output in JSON format

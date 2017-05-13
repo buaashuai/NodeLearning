@@ -1,0 +1,55 @@
+{
+  "success": true,
+  "msg": "消息",
+  "code": "400",
+  "data": {
+    "total": 3,
+    "rows": [
+      {
+        "budgetId": "1",
+        "budgetName": "预算1",
+        "result": "122,24",
+        "execute": "22",
+        "executeRate": "20.13%",
+        "departId": "1",
+        "departName": "部门1"
+      },
+      {
+        "budgetId": "2",
+        "budgetName": "预算2",
+        "result": "122,24",
+        "execute": "22",
+        "executeRate": "38.23%",
+        "departId": "2",
+        "departName": "部门2"
+      },
+      {
+        "budgetId": "3",
+        "budgetName": "预算3",
+        "result": "122,24",
+        "execute": "22",
+        "executeRate": "98.37%",
+        "departId": "3",
+        "departName": "部门3"
+      },
+      {
+        "budgetId": "4",
+        "budgetName": "预算4",
+        "result": "122,24",
+        "execute": "22",
+        "executeRate": "71.27%",
+        "departId": "4",
+        "departName": "部门4"
+      },
+      {
+        "budgetId": "5",
+        "budgetName": "预算5",
+        "result": "122,24",
+        "execute": "22",
+        "executeRate": "41.34%",
+        "departId": "5",
+        "departName": "部门5"
+      }
+    ]
+  }
+}

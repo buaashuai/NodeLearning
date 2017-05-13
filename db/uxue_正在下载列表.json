@@ -1,12 +1,13 @@
 {
   "error_no": 0,
   "data": {
+	"list1": [],
     "list": [
       {
         "lessonInfo": {
           "chapter_title": "四级长效班第一周课程",
           "valid_end_tm": "1497715199",
-          "id": "686",
+          "id": "1",
           "live_room_id": "FckSxYxbot",
           "teacher": [
             {
@@ -37,14 +38,14 @@
             }
           ]
         },
-        "state": "WAITING",
+        "state": "PENDING",
         "position": 20
       },
       {
         "lessonInfo": {
           "chapter_title": "四级长效班第一周课程",
           "valid_end_tm": "1497715199",
-          "id": "692",
+          "id": "2",
           "live_room_id": "u2DDkJHyUO",
           "teacher": [
             {
@@ -67,14 +68,14 @@
             }
           ]
         },
-        "state": "WAITING",
+        "state": "PENDING",
         "position": 45
       },
       {
         "lessonInfo": {
           "chapter_title": "四级长效班第一周课程",
           "valid_end_tm": "1497715199",
-          "id": "682",
+          "id": "3",
           "live_room_id": "a0r0cujmLR",
           "teacher": [
             {
@@ -104,7 +105,7 @@
         "lessonInfo": {
           "chapter_title": "四级长效班第一周课程",
           "valid_end_tm": "1497715199",
-          "id": "692",
+          "id": "4",
           "live_room_id": "u2DDkJHyUO",
           "teacher": [
             {
@@ -134,7 +135,7 @@
         "lessonInfo": {
           "chapter_title": "四级长效班第一周课程",
           "valid_end_tm": "1497715199",
-          "id": "692",
+          "id": "5",
           "live_room_id": "u2DDkJHyUO",
           "teacher": [
             {
@@ -164,7 +165,7 @@
         "lessonInfo": {
           "chapter_title": "四级长效班第一周课程",
           "valid_end_tm": "1497715199",
-          "id": "692",
+          "id": "6",
           "live_room_id": "u2DDkJHyUO",
           "teacher": [
             {
@@ -194,7 +195,7 @@
         "lessonInfo": {
           "chapter_title": "四级长效班第一周课程",
           "valid_end_tm": "1497715199",
-          "id": "692",
+          "id": "7",
           "live_room_id": "u2DDkJHyUO",
           "teacher": [
             {
@@ -224,7 +225,7 @@
         "lessonInfo": {
           "chapter_title": "四级长效班第一周课程",
           "valid_end_tm": "1497715199",
-          "id": "692",
+          "id": "8",
           "live_room_id": "u2DDkJHyUO",
           "teacher": [
             {
@@ -254,7 +255,7 @@
         "lessonInfo": {
           "chapter_title": "四级长效班第一周课程",
           "valid_end_tm": "1497715199",
-          "id": "682",
+          "id": "9",
           "live_room_id": "a0r0cujmLR",
           "teacher": [
             {
@@ -284,7 +285,7 @@
         "lessonInfo": {
           "chapter_title": "四级长效班第一周课程",
           "valid_end_tm": "1497715199",
-          "id": "687",
+          "id": "10",
           "live_room_id": "C0yL6Eqbry",
           "teacher": [
             {

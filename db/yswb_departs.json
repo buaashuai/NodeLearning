@@ -1,0 +1,58 @@
+{
+  "success": true,
+  "msg": "消息",
+  "code": "400",
+  "data": {
+    "total": 3,
+    "rows": [
+      {
+        "departId": "1",
+        "departName": "部门1"
+      },
+      {
+        "departId": "2",
+        "departName": "部门2"
+      },
+      {
+        "departId": "3",
+        "departName": "部门3"
+      },
+      {
+        "departId": "4",
+        "departName": "部门4"
+      },
+      {
+        "departId": "5",
+        "departName": "部门5"
+      },
+      {
+        "departId": "6",
+        "departName": "部门6"
+      },
+	  {
+        "departId": "11",
+        "departName": "部门11"
+      },
+      {
+        "departId": "12",
+        "departName": "部门12"
+      },
+      {
+        "departId": "13",
+        "departName": "部门13"
+      },
+      {
+        "departId": "14",
+        "departName": "部门14"
+      },
+      {
+        "departId": "15",
+        "departName": "部门15"
+      },
+      {
+        "departId": "16",
+        "departName": "部门16"
+      }
+    ]
+  }
+}
