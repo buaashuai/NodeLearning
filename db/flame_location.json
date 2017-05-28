@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "msg": "消息",
+  "code": "400",
+  "data": {
+    "total": 3,
+    "positions": [
+      {
+        "studentId": "1",
+        "studentName": "张三1",
+        "longitude": "116.272614",
+        "latitude": "40.084009"
+      },
+      {
+        "studentId": "1",
+        "studentName": "张三1",
+        "longitude": "116.275030",
+        "latitude": "40.077695"
+      },
+	  {
+        "studentId": "1",
+        "studentName": "张三1",
+        "longitude": "116.283465",
+        "latitude": "40.076556"
+      },
+	  {
+        "studentId": "1",
+        "studentName": "张三1",
+        "longitude": "116.288415",
+        "latitude": "40.081339"
+      },
+	  {
+        "studentId": "1",
+        "studentName": "张三1",
+        "longitude": "116.291550",
+        "latitude": "40.087715"
+      }
+    ]
+  }
+}

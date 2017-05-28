@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "msg": "消息",
+  "code": "400",
+  "data": {
+    "total": 3,
+    "list": [
+      {
+        "id": "1",
+        "title": "你好1",
+        "image": "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2029432625,2912600881&fm=80&w=179&h=119&img.JPEG"
+      },
+      {
+        "id": "2",
+        "title": "你好2",
+        "image": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1979002888,922171075&fm=80&w=179&h=119&img.JPG"
+      },
+	  {
+        "id": "3",
+        "title": "你好3",
+        "image": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=4038157357,3250739565&fm=80&w=179&h=119&img.JPEG"
+      },
+	  {
+        "id": "4",
+        "title": "你好4",
+        "image": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=66782707,2260792572&fm=80&w=179&h=119&img.JPEG"
+      }
+    ]
+  }
+}

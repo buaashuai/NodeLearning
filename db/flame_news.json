@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "msg": "消息",
+  "code": "400",
+  "data": {
+    "total": 3,
+    "news": [
+      {
+        "id": "1",
+        "cate": "1",
+        "title": "学校新闻",
+        "content": "学校新闻1",
+        "image": "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2029432625,2912600881&fm=80&w=179&h=119&img.JPEG",
+        "spread": "1",
+        "rank": "1",
+        "createTime": "2017-01-02",
+        "source": "百度"
+      },
+      {
+        "id": "2",
+        "cate": "1",
+        "title": "学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻",
+        "content": "asdfasdfasdf",
+        "image": "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2029432625,2912600881&fm=80&w=179&h=119&img.JPEG",
+        "spread": "1",
+        "rank": "1",
+        "createTime": "2017-01-02",
+        "source": "百度"
+      },
+	  {
+        "id": "3",
+        "cate": "1",
+        "title": "学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻",
+        "content": "学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻",
+        "image": "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2029432625,2912600881&fm=80&w=179&h=119&img.JPEG",
+        "spread": "1",
+        "rank": "1",
+        "createTime": "2017-01-02",
+        "source": "百度"
+      },
+	  {
+        "id": "4",
+        "cate": "1",
+        "title": "学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻",
+        "content": "学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻学校新闻",
+        "image": "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2029432625,2912600881&fm=80&w=179&h=119&img.JPEG",
+        "spread": "1",
+        "rank": "1",
+        "createTime": "2017-01-02",
+        "source": "百度"
+      }
+    ]
+  }
+}
